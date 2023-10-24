@@ -43,4 +43,6 @@ In 3D modeling, both normal maps and diffuse maps are types of texture maps, but
 
 We can apply a texture to a material by dragging the texture from the Project View to the Albedo property of the material in the Inspector.
 
+<img src="./picts/06.png" alt="Create Material" width="600"/>
+
 In summary, while a diffuse map represents color information, a normal map represents surface detail (bumps and dents)

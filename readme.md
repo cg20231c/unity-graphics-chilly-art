@@ -46,3 +46,32 @@ We can apply a texture to a material by dragging the texture from the Project Vi
 <img src="./picts/06.png" alt="Create Material" width="600"/>
 
 In summary, while a diffuse map represents color information, a normal map represents surface detail (bumps and dents)
+
+## Shader in Unity
+Shader is a script that applies the properties contained in a material to render the meshes of your 3D objects to the 2D image on your screen. Each shader is written for a specific render pipeline.
+
+### Types of Shaders
+There are two types of operations that occur in a shader: fragment shading and vertex shading.
+
+ - **Fragment shading**, also known as pixel shading, is the shading that represents mesh surfaces to produce the color of each pixel in the 2D image.
+
+ - **Vertex shading** operates on the vertices of the mesh, typically changing their locations to make the surface move or transform.
+
+### Shaders in the Universal Render Pipeline
+Shaders must be compatible with the render pipeline of a project.
+
+![steps](picts/07.png)
+
+1. Select an object with material applied on your workbench.
+2.  In the Inspector, locate the Material Inspector at the bottom of the Inspector window, and expand that section if necessary.
+3.  At the top of the Material Inspector, near the thumbnail of the material, locate the Shader property.
+4.  Use the dropdown to view the list of shader categories. Select Universal Render Pipeline to see the URP shaders.
+5.  With the object selected, select each of the URP shaders.
+    - ![2d lit](picts/08.png)<br />
+    2D > Sprite-Lit-Default: Designed for 2D projects, this shader is for flat objects only and will render any 3D object as 2D. As a lit shader, it will render based on the light in the scene that reaches the object.
+    - ![particles lit](picts/09.png)<br />
+    Particles > Lit, Simple Lit, and Unlit: These shaders are for visual effects (VFX). In the Creative Core pathway, you will use these shaders in the VFX mission.
+    - ![terrain lit](picts/10.png)<br />
+    Terrain > Lit: This shader is optimized for use with the Terrain tools in Unity. In the Creative Core pathway, you will use this shader in the Prototyping mission.
+    - ![baked lit](picts/11.png)<br />
+    Baked Lit: This shader is automatically applied to lightmaps, which you will encounter in the Creative Core pathway’s Lighting mission.

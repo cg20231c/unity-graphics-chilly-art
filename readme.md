@@ -75,3 +75,23 @@ Shaders must be compatible with the render pipeline of a project.
     Terrain > Lit: This shader is optimized for use with the Terrain tools in Unity. In the Creative Core pathway, you will use this shader in the Prototyping mission.
     - ![baked lit](picts/11.png)<br />
     Baked Lit: This shader is automatically applied to lightmaps, which you will encounter in the Creative Core pathway’s Lighting mission.
+
+## Material Variant
+Many of the materials in a game are variations of other. Outfits with a variety of color schemes, damaged and undamaged versions of items, shiny and weathered instances of props.
+
+- Automatically changes if its parent changes.
+- You can copy changes from a child material to its parent with two mouse clicks.
+- You can lock one or more Properties on a Material or Material Variant to prevent modifications to those Properties in its children.
+- You can reparent Material Variants.
+
+### Create, modify, and apply Material Variants
+1. Create a Material Variant
+    a. Right-click on a Material in the Project window, then select `Create > Material Variant`.
+    b. Select material type dropdown in the Material Hierarchy dialog, then select **Material Variant** and Assign a material to the parent field.<br />
+![create](picts/12.png)
+2. Add an Override on a Material Variant (modify)<br />
+![modify](picts/13.png)
+3. Material Variant applied<br />
+![apply](picts/14.png)
+4. Modifications on parent material also changes the variants<br />
+![change on parent](picts/15.png)

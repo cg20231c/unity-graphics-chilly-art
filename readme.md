@@ -95,3 +95,7 @@ Many of the materials in a game are variations of other. Outfits with a variety 
 ![apply](picts/14.png)
 4. Modifications on parent material also changes the variants<br />
 ![change on parent](picts/15.png)
+
+## References
+[Creative Core: Shaders and materials](https://learn.unity.com/project/creative-core-shaders-and-materials)<br />
+[Material Variants](https://docs.unity3d.com/2023.3/Documentation/Manual/materialvariant-landingpage.html)
